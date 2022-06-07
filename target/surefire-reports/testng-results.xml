@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T14:12:09 EDT" name="scripts.CarsTest" finished-at="2022-06-07T14:12:35 EDT" duration-ms="25284">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T14:12:09 EDT" name="Command line test" finished-at="2022-06-07T14:12:35 EDT" duration-ms="25284">
+      <class name="scripts.CarsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:09 EDT" name="setup" finished-at="2022-06-07T14:12:12 EDT" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSignInPageForm()[pri:1, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:12 EDT" name="validateSignInPageForm" finished-at="2022-06-07T14:12:16 EDT" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignInPageForm -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:16 EDT" name="teardown" finished-at="2022-06-07T14:12:19 EDT" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:19 EDT" name="setup" finished-at="2022-06-07T14:12:20 EDT" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateNotToSignIn()[pri:2, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:20 EDT" name="validateNotToSignIn" finished-at="2022-06-07T14:12:25 EDT" depends-on-methods="scripts.CarsTest.validateSignInPageForm" duration-ms="4999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNotToSignIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:25 EDT" name="teardown" finished-at="2022-06-07T14:12:28 EDT" duration-ms="3190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:28 EDT" name="setup" finished-at="2022-06-07T14:12:29 EDT" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSignInPageSocialMediaSection()[pri:3, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:29 EDT" name="validateSignInPageSocialMediaSection" finished-at="2022-06-07T14:12:32 EDT" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignInPageSocialMediaSection -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarsTest@77ec78b9]" started-at="2022-06-07T14:12:32 EDT" name="teardown" finished-at="2022-06-07T14:12:35 EDT" duration-ms="3190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.CarsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- scripts.CarsTest -->
+</testng-results>
